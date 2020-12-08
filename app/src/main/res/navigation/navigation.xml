@@ -24,7 +24,7 @@
             app:destination="@id/gameWonFragment"
             app:popUpTo="@id/titleFragment" />
         <action
-            android:id="@+id/action_gameFragment_to_gameOverFragment2"
+            android:id="@+id/action_gameFragment_to_gameOverFragment"
             app:destination="@id/gameOverFragment"
             app:enterAnim="@anim/slide_in_right"
             app:exitAnim="@anim/slide_out_left"
@@ -36,7 +36,7 @@
         android:label="fragment_game_over"
         tools:layout="@layout/fragment_game_over" >
         <action
-            android:id="@+id/action_gameOverFragment2_to_gameFragment"
+            android:id="@+id/action_gameOverFragment_to_gameFragment"
             app:destination="@id/gameFragment"
             app:popUpTo="@id/titleFragment" />
     </fragment>
